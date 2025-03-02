@@ -50,7 +50,7 @@ export const NavBar = ({navOpen})=>{
         {
           label: 'Contact',
           link: '#contact',
-          className: 'nav-link md:hidden'
+          className: 'nav-link nav-lg-md'
         }
       ];
 

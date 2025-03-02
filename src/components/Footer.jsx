@@ -1,51 +1,6 @@
 import { ButtonPrimary } from "./Button";
-
+import { footerMail, sitemap,socials } from "../constants";
 const Footer = () => {
-    const sitemap = [
-        {
-          label: 'Home',
-          href: '#home'
-        },
-        {
-          label: 'About',
-          href: '#about'
-        },
-        {
-          label: 'Work',
-          href: '#work'
-        },
-        {
-          label: 'Reviews',
-          href: '#reviews'
-        },
-        {
-          label: 'Contact me',
-          href: '#contact'
-        }
-    ];
-      
-    const socials = [
-        {
-          label: 'GitHub',
-          href: 'https://www.github.com/codewithsadee-org'
-        },
-        {
-          label: 'LinkedIn',
-          href: 'https://www.linkedin.com/in/codewithsadee'
-        },
-        {
-          label: 'Twitter X',
-          href: 'https://x.com/codewithsadee_'
-        },
-        {
-          label: 'Instagram',
-          href: 'https://www.instagram.com/codewithsadee'
-        },
-        {
-          label: 'CodePen',
-          href: 'https://codepen.io/codewithsadee'
-        }
-    ];
 
     return (
         <footer className="section">
@@ -56,7 +11,7 @@ const Footer = () => {
                          Let&apos;s work together today!
                         </h2>
                         <ButtonPrimary 
-                            href="mailto:uaa.acharya@gmail.com"
+                            href={footerMail}
                             icon={"chevron_right"}
                             label="Start project"
                             classes="reveal-up"
@@ -94,7 +49,7 @@ const Footer = () => {
                 <div className="flex items-center justify-between pt-10 mb-8">
                     <a href="/" className="logo reveal-up">
                         <img 
-                            src="./src/assets/images/logo.svg" 
+                            src="./src/assets/images/aadityas-logo.webp" 
                             alt="Logo" 
                             className="" 
                             width={40}

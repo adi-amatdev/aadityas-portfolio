@@ -31,7 +31,7 @@ const ReviewCard = ({
             {content}
         </p>
         <div className="flex items-center gap-2 mt-auto">
-            <figure className="img-box rounded-lg">
+            <figure className="img-box w-11 h-11 rounded-lg">
                 <img 
                     src={imgSrc} 
                     alt={name} 

@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const ButtonPrimary = ({
     href,
-    target = '_self',
+    target = '_blank',
     label,
     icon,
     classes
