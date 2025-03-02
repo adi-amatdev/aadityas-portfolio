@@ -199,6 +199,12 @@ export const works = [
       title: 'Finsight',
       tags: ['UI','Open AI API','Python', 'Gen AI','Firebase','Collaboration'],
       projectLink: 'https://github.com/vishwasg217/fin-sight/tree/signup-login-branch'
+    },
+    {
+      imgSrc: './src/assets/images/port.webp',
+      title: 'Portfolio',
+      tags: ['UI','Portfolio Website','Tailwindcss', 'Javascript','vite','gsap'],
+      projectLink: 'https://github.com/adi-amatdev/aadityas-portfolio/tree/main?tab=readme-ov-file'
     }
 ];
 
