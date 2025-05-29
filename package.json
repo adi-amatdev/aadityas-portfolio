@@ -12,6 +12,7 @@
   "dependencies": {
     "@gsap/react": "^2.1.2",
     "@tailwindcss/cli": "^4.0.8",
+    "@tailwindcss/vite": "^4.1.8",
     "gsap": "^3.12.7",
     "lenis": "^1.1.21",
     "prop-types": "^15.8.1",

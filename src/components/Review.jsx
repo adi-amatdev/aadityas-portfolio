@@ -27,7 +27,7 @@ const Review = () => {
   return (
     <section id='reviews' className="section overflow-hidden">
         <div className="container-2">
-            <h2 className="headline-2 mb-8 reveal-up">
+            <h2 className="headline-2 mb-12 reveal-up">
                 {reviewDesc}
             </h2>
             <div className="scrub-slide flex items-stretch gap-3 w-fit">
