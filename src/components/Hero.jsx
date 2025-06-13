@@ -13,7 +13,7 @@ const Hero = () => {
                     <figure
                         className="img-box w-9 h-9 rounded-lg"
                     >
-                        <img src="./src/assets/images/avatar-1.webp"
+                        <img src="/assets/images/avatar-1.webp"
                             width={40}
                             height={40}
                             alt="Aaditya Acharya potrait" 
@@ -61,7 +61,7 @@ const Hero = () => {
                     <div className="relative w-full max-w-[480px] mx-auto overflow-hidden rounded-[20px] group">
                             {/* Default image with smooth fade-out and scale-down on hover */}
                             <img 
-                                src="./src/assets/images/9910414.webp"
+                                src="/assets/images/9910414.webp"
                                 width={656}
                                 height={800}
                                 loading="lazy"
@@ -71,7 +71,7 @@ const Hero = () => {
 
                             {/* Hover image with fade-in and scale-up */}
                             <img 
-                                src="./src/assets/images/pot.webp"
+                                src="/assets/images/pot.webp"
                                 width={656}
                                 height={800}
                                 loading="lazy"

@@ -222,19 +222,19 @@ export const workTitle = "Projects I have worked on";
 
 export const works = [
     {
-      imgSrc: './src/assets/images/medium.jpg',
+      imgSrc: '/assets/images/medium.jpg',
       title: 'Medium Adaptation',
       tags: ['Typescript','React','Hono','Cloud Flare','Vercel','NPM','ZOD'],
       projectLink: 'https://github.com/adi-amatdev/medium'
     },
     {
-      imgSrc: './src/assets/images/msp.png',
+      imgSrc: '/assets/images/msp.png',
       title: 'Managed Service Provider',
       tags: ['UI','NextJs','Tailwindcss', 'Vercel','Lucid-react','Frontend'],
       projectLink: 'https://github.com/stars/adi-amatdev/lists/msp-dashboards'
     },
     {
-      imgSrc: './src/assets/images/patym.png',
+      imgSrc: '/assets/images/patym.png',
       title: 'Patym Clone',
       tags: ['Javascript','React','Tailwind', 'Express','MongoDB','Transactions'],
       projectLink: 'https://github.com/adi-amatdev/paytm-clone'
@@ -252,7 +252,7 @@ export const works = [
       projectLink: 'https://github.com/vishwasg217/fin-sight/tree/signup-login-branch'
     },
     {
-      imgSrc: './src/assets/images/port.webp',
+      imgSrc: '/assets/images/port.webp',
       title: 'Portfolio',
       tags: ['UI','Portfolio Website','Tailwindcss', 'Javascript','vite','gsap'],
       projectLink: 'https://github.com/adi-amatdev/aadityas-portfolio/tree/main?tab=readme-ov-file'
@@ -272,21 +272,21 @@ export const reviews = [
   {
     content: 'Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.',
     name: 'Ethan Caldwell',
-    imgSrc: './src/assets/images/people-2.jpg',
+    imgSrc: '/assets/images/people-2.jpg',
     company: 'NexaWave',
     rating: 5.0
   },
   {
     content: 'Outstanding developer! Built a robust site with perfect functionality. Efficient and detail-oriented.',
     name: 'Liam Bennett',
-    imgSrc: './src/assets/images/people-3.jpg',
+    imgSrc: '/assets/images/people-3.jpg',
     company: 'CodeCraft',
     rating: 4.7
   },
   {
     content: 'Creative and skilled! Produced a modern, user-friendly site that exceeded expectations. Great communication.',
     name: 'Noah Williams',
-    imgSrc: './src/assets/images/people-4.jpg',
+    imgSrc: '/assets/images/people-4.jpg',
     company: 'BrightWeb',
     rating: 4.9
   },
@@ -300,7 +300,7 @@ export const reviews = [
   {
     content: 'Excellent project execution! High-quality code, responsive design, and exceptional problem-solving skills.',
     name: 'Jonathan',
-    imgSrc: './src/assets/images/people-6.jpg',
+    imgSrc: '/assets/images/people-6.jpg',
     company: 'Skyline Digital',
     rating: 4.8
   }

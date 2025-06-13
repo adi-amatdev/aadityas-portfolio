@@ -23,7 +23,7 @@ const About = () =>{
                                 </div>
                             ))
                         }
-                        <img src="./src/assets/images/aadityas-logo.webp" 
+                        <img src="/assets/images/aadityas-logo.webp" 
                                 alt="logo" 
                                 className="ml-auto md:w-[40px] md:h-[40px]" 
                                 height={30}
