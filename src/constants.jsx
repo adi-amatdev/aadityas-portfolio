@@ -18,15 +18,23 @@ export const aboutItems = [
   {
     label: 'Months of internship experience',
     number: 10
+  },
+  {
+    label: 'Months of full time working experience',
+    number: 2
+  },
+  {
+    label: 'Coffee cups consumed',
+    number: 1000
   }
 ];
 
 export const aboutMessage= `
-  Welcome! I&apos;m Aaditya, I’m a passionate developer who loves diving into challenges and building solutions that matter. <br/><br/>
-  Currently, I’m working at <a href="https://itasin.com/" style="color: #ef4444; text-decoration: none;" onmouseover="this.style.color='#f87171'; this.style.textDecoration='underline';" onmouseout="this.style.color='#ef4444'; this.style.textDecoration='none';">
+  Welcome! I&apos;m Aaditya, I'm a passionate developer who loves diving into challenges and building solutions that matter. <br/><br/>
+  Currently, I'm working at <a target=# href="https://itasin.com/" style="color: #ef4444; text-decoration: none;" onmouseover="this.style.color='#f87171'; this.style.textDecoration='underline';" onmouseout="this.style.color='#ef4444'; this.style.textDecoration='none';">
     iTAS Innovations
-  </a>, where I’ve been fortunate to work on projects that make a real impact.<br /><br />
-  I’ve had the chance to play around with emerging tech like WebAssembly (WASM) and configure IoT infrastructures, while also working on end-to-end solutions that combine AWS, frontend, and backend systems—mostly revolving around the MERN stack.
+  </a>, where I've been fortunate to work on projects that have helped me grow.<br /><br />
+  I love working on end-to-end solutions that combine various cloud services, databases, frontend, and backend systems—mostly revolving around the MERN stack.
 `;
 
 
@@ -106,6 +114,31 @@ export const skillItem = [
     label: 'Python',
     desc: 'Programming Language'
   },
+  {
+    imgSrc: 'https://skillicons.dev/icons?i=prisma',
+    label: 'Prisma',
+    desc: 'ORM Tool'
+  },
+  {
+    imgSrc: 'https://skillicons.dev/icons?i=github',
+    label: 'GitHub',
+    desc: 'Version Control Hosting'
+  },
+  {
+    imgSrc: 'https://skillicons.dev/icons?i=vercel',
+    label: 'Vercel',
+    desc: 'Deployment Platform'
+  },
+  {
+    imgSrc: 'https://www.svgrepo.com/show/353564/cloudflare.svg',
+    label: 'Cloudflare',
+    desc: 'Cloud Services'
+  },
+  {
+    imgSrc: 'https://hono.dev/images/logo.svg',
+    label: 'Hono',
+    desc: 'Cloudflare Worker Framework'
+  }
 ];
 
 // contact jsx
@@ -118,7 +151,7 @@ export const socialLinks = [
     alt: 'GitHub'
   },
   {
-    href: 'www.linkedin.com/in/aaditya-acharya',
+    href: 'https://www.linkedin.com/in/aaditya-acharya',
     icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M5.75 3C4.24011 3 3 4.24011 3 5.75V18.25C3 19.7599 4.24011 21 5.75 21H18.25C19.7599 21 21 19.7599 21 18.25V5.75C21 4.24011 19.7599 3 18.25 3H5.75ZM5.75 4.5H18.25C18.9491 4.5 19.5 5.05089 19.5 5.75V18.25C19.5 18.9491 18.9491 19.5 18.25 19.5H5.75C5.05089 19.5 4.5 18.9491 4.5 18.25V5.75C4.5 5.05089 5.05089 4.5 5.75 4.5ZM7.75 6.5C7.41848 6.5 7.10054 6.6317 6.86612 6.86612C6.6317 7.10054 6.5 7.41848 6.5 7.75C6.5 8.08152 6.6317 8.39946 6.86612 8.63388C7.10054 8.8683 7.41848 9 7.75 9C8.08152 9 8.39946 8.8683 8.63388 8.63388C8.8683 8.39946 9 8.08152 9 7.75C9 7.41848 8.8683 7.10054 8.63388 6.86612C8.39946 6.6317 8.08152 6.5 7.75 6.5ZM7 10C6.7235 10 6.5 10.2235 6.5 10.5V17C6.5 17.2765 6.7235 17.5 7 17.5H8.5C8.7765 17.5 9 17.2765 9 17V10.5C9 10.2235 8.7765 10 8.5 10H7ZM10.5 10C10.2235 10 10 10.2235 10 10.5V17C10 17.2765 10.2235 17.5 10.5 17.5H12C12.2765 17.5 12.5 17.2765 12.5 17V13.25C12.5 12.5605 13.0605 12 13.75 12C14.4395 12 15 12.5605 15 13.25V17C15 17.2765 15.2235 17.5 15.5 17.5H17C17.2765 17.5 17.5 17.2765 17.5 17V13C17.5 11.3455 16.1545 10 14.5 10C13.731 10 13.0315 10.293 12.5 10.7705V10.5C12.5 10.2235 12.2765 10 12 10H10.5Z" fill="currentColor" />
     </svg>,
@@ -189,6 +222,24 @@ export const workTitle = "Projects I have worked on";
 
 export const works = [
     {
+      imgSrc: './src/assets/images/medium.jpg',
+      title: 'Medium Adaptation',
+      tags: ['Typescript','React','Hono','Cloud Flare','Vercel','NPM','ZOD'],
+      projectLink: 'https://github.com/adi-amatdev/medium'
+    },
+    {
+      imgSrc: './src/assets/images/msp.png',
+      title: 'Managed Service Provider',
+      tags: ['UI','NextJs','Tailwindcss', 'Vercel','Lucid-react','Frontend'],
+      projectLink: 'https://github.com/stars/adi-amatdev/lists/msp-dashboards'
+    },
+    {
+      imgSrc: './src/assets/images/patym.png',
+      title: 'Patym Clone',
+      tags: ['Javascript','React','Tailwind', 'Express','MongoDB','Transactions'],
+      projectLink: 'https://github.com/adi-amatdev/paytm-clone'
+    },
+    {
       imgSrc: 'https://raw.githubusercontent.com/adi-amatdev/TokenSystem/refs/heads/jwt-auth/images/basicLayout.png',
       title: 'Token System',
       tags: ['Backend', 'Flask', 'Python','AWS-SDK'],
@@ -215,41 +266,46 @@ export const reviews = [
     content: 'Exceptional web development! Delivered a seamless, responsive site with clean code and great UX.',
     name: 'Sophia Ramirez',
     imgSrc: 'https://www.linkedin.com/in/vishwas-vasisht-6993661b7?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADJrplUBVSb6n97-WGSvVogiXoInibX3dUA&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BxwA82pCFRci6ncW0FScvZg%3D%3D',
-    company: 'PixelForge'
+    company: 'PixelForge',
+    rating: 4.5
   },
   {
     content: 'Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.',
     name: 'Ethan Caldwell',
     imgSrc: './src/assets/images/people-2.jpg',
-    company: 'NexaWave'
+    company: 'NexaWave',
+    rating: 5.0
   },
   {
     content: 'Outstanding developer! Built a robust site with perfect functionality. Efficient and detail-oriented.',
     name: 'Liam Bennett',
     imgSrc: './src/assets/images/people-3.jpg',
-    company: 'CodeCraft'
+    company: 'CodeCraft',
+    rating: 4.7
   },
   {
     content: 'Creative and skilled! Produced a modern, user-friendly site that exceeded expectations. Great communication.',
     name: 'Noah Williams',
     imgSrc: './src/assets/images/people-4.jpg',
-    company: 'BrightWeb'
+    company: 'BrightWeb',
+    rating: 4.9
   },
   {
     content: 'Professional work! Delivered on time, with a polished design and smooth user experience. Top-notch developer.',
     name: 'Vishwas Vashisht',
     imgSrc: 'https://media.licdn.com/dms/image/v2/C5603AQEZbGnE7yHmHA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1662022447154?e=1746662400&v=beta&t=-Krggw7eH7ptht2Pn-y7mAQJL8U59peVSiYaNa1tQzI',
-    company: 'Ex Mercedes'
+    company: 'Ex Mercedes',
+    rating: 4.6
   },
   {
     content: 'Excellent project execution! High-quality code, responsive design, and exceptional problem-solving skills.',
     name: 'Jonathan',
     imgSrc: './src/assets/images/people-6.jpg',
-    company: 'Skyline Digital'
+    company: 'Skyline Digital',
+    rating: 4.8
   }
 ];
 
-export const reviewDesc = "What my colleague's say"
-
-
+export const reviewDesc = "What my colleague's say";
+export const reviewTip = "Click on a review to read in full";
 

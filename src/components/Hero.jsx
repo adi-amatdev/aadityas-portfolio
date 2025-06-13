@@ -38,11 +38,16 @@ const Hero = () => {
                   {mainMessage}
                 </h2>
                 <div className="flex items-center gap-3">
-                    <ButtonPrimary 
-                        href="https://docs.google.com/document/d/1VJG0lSyC8_yEVfFJ31tkbl2K1SI8Ehwxd98iOkI_Vko/edit?usp=sharing"
-                        label="Download CV"
-                        icon="download"
-                    />
+                    <div className="relative group">
+                        <ButtonPrimary 
+                            href="https://docs.google.com/document/d/1VJG0lSyC8_yEVfFJ31tkbl2K1SI8Ehwxd98iOkI_Vko/edit?usp=sharing"
+                            label="Download CV"
+                            icon="download"
+                        />
+                        <div className="absolute left-0 bottom-full mb-2 w-64 p-2 bg-zinc-800 text-zinc-200 text-xs rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                            To download in PDF or DOCX format, go to the File toolbar and click Download to choose your preferred format.
+                        </div>
+                    </div>
                    <ButtonOutline
                         href="#about"
                         label="scroll down"
