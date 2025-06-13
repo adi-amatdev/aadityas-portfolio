@@ -9,7 +9,7 @@ const Header = ()=>{
             <div className="max-w-screen-2xl w-full mx-auto px-4 flex justify-between items-center">
                 <h1>
                     <a href="/" className="logo">
-                        <img src="./src/assets/images/aadityas-logo.webp"
+                        <img src="/assets/images/aadityas-logo.webp"
                             height={40} 
                             width={40}
                             alt="Aaditya Acharya" />
