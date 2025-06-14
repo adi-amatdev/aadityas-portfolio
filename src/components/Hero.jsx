@@ -49,8 +49,8 @@ const Hero = () => {
                         </div>
                     </div>
                    <ButtonOutline
-                        href="#about"
-                        label="scroll down"
+                        href="#work"
+                        label="See my Projects"
                         icon="arrow_downward"
                    />
                 </div>
@@ -66,18 +66,18 @@ const Hero = () => {
                                 height={800}
                                 loading="lazy"
                                 alt="Aaditya Acharya"
-                                className="w-full object-cover transition-all duration-500 ease-in-out transform group-hover:scale-90 group-hover:opacity-0"
+                                className="w-full object-cover transition-all duration-500 ease-in-out transform" //group-hover:scale-90 group-hover:opacity-0
                             />
 
                             {/* Hover image with fade-in and scale-up */}
-                            <img 
+                            {/* <img 
                                 src="/assets/images/pot.webp"
                                 width={656}
                                 height={800}
                                 loading="lazy"
                                 alt="Aaditya Acharya"
                                 className="absolute inset-0 w-full h-full object-cover opacity-0 scale-110 transition-all duration-500 ease-in-out group-hover:opacity-100 group-hover:scale-100"
-                            />
+                            /> */}
                     </div>
                 </figure>
             </div>

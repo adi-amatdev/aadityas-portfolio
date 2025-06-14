@@ -1,4 +1,4 @@
-import { ButtonPrimary } from "./Button";
+//import { ButtonPrimary } from "./Button";
 import { footerMail, sitemap,socials } from "../constants";
 const Footer = () => {
 
@@ -10,12 +10,12 @@ const Footer = () => {
                         <h2 className="headline-1 mb-8 lg:max-w-[12ch] reveal-up">
                          Let&apos;s work together today!
                         </h2>
-                        <ButtonPrimary 
+                        {/* <ButtonPrimary 
                             href={footerMail}
                             icon={"chevron_right"}
                             label="Start project"
                             classes="reveal-up"
-                        />
+                        /> */}
                     </div>
                     <div className="grid grid-cols-2 gap-4 lg:pl-20">
                         <div>
