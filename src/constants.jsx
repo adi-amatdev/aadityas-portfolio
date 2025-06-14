@@ -235,7 +235,7 @@ export const works = [
     },
     {
       imgSrc: '/assets/images/patym.png',
-      title: 'Patym Clone',
+      title: 'Paytm Clone',
       tags: ['Javascript','React','Tailwind', 'Express','MongoDB','Transactions'],
       projectLink: 'https://github.com/adi-amatdev/paytm-clone'
     },
