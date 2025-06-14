@@ -263,18 +263,18 @@ export const works = [
 // reviews jsx
 export const reviews = [
   {
+    content: 'Excellent project execution! High-quality code, responsive design, and exceptional problem-solving skills.',
+    name: 'Jonathan',
+    imgSrc: '/assets/images/people-6.jpg',
+    company: 'Skyline Digital',
+    rating: 4.8
+  },
+  {
     content: 'Exceptional web development! Delivered a seamless, responsive site with clean code and great UX.',
     name: 'Sophia Ramirez',
     imgSrc: 'https://www.linkedin.com/in/vishwas-vasisht-6993661b7?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADJrplUBVSb6n97-WGSvVogiXoInibX3dUA&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BxwA82pCFRci6ncW0FScvZg%3D%3D',
     company: 'PixelForge',
     rating: 4.5
-  },
-  {
-    content: 'Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.',
-    name: 'Vishwas Vasisht',
-    imgSrc: 'https://media.licdn.com/dms/image/v2/C5603AQEZbGnE7yHmHA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1662022447154?e=1755129600&v=beta&t=u5p4F7hYFEcE_Tp0y7YxdT_OSm24_39trgAkW1uGf-A',
-    company: '',
-    rating: 5.0
   },
   {
     content: 'We found him to be a punctual and reliable person. His learning powers are good and he picks up quickly. He has good leadership qualities. His feedback and evaluation proved that he learned strongly.',
@@ -284,18 +284,18 @@ export const reviews = [
     rating: 4.6
   },
   {
+    content: 'Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.',
+    name: 'Vishwas Vasisht',
+    imgSrc: 'https://media.licdn.com/dms/image/v2/C5603AQEZbGnE7yHmHA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1662022447154?e=1755129600&v=beta&t=u5p4F7hYFEcE_Tp0y7YxdT_OSm24_39trgAkW1uGf-A',
+    company: '',
+    rating: 5.0
+  },
+  {
     content: 'Creative and skilled! Produced a modern, user-friendly site that exceeded expectations. Great communication.',
     name: 'Noah Williams',
     imgSrc: '/assets/images/people-4.jpg',
     company: 'BrightWeb',
     rating: 4.9
-  },
-  {
-    content: 'Excellent project execution! High-quality code, responsive design, and exceptional problem-solving skills.',
-    name: 'Jonathan',
-    imgSrc: '/assets/images/people-6.jpg',
-    company: 'Skyline Digital',
-    rating: 4.8
   }
 ];
 
