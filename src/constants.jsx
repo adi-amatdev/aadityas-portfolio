@@ -1,7 +1,7 @@
 // hero jsx
 
 export const heroMessage = "Available for work";
-export const mainMessage = "A Full Stack developer building solutions that matter";
+export const mainMessage = "Full Stack developer building solutions that matter";
 
 
 // about jsx

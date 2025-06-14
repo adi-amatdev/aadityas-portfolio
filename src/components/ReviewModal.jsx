@@ -99,17 +99,50 @@ const ReviewModal = ({ review, isOpen, onClose, onNext, onPrev }) => {
 
         <div ref={contentRef} className="mb-6">
           <div className="flex items-center gap-1 mb-3">
-            {[...Array(5)].map((_, i) => (
+            {/* Full stars */}
+            {[...Array(Math.floor(review.rating))].map((_, i) => (
               <span 
-                key={`star-${i}`}
-                style={{
-                  fontVariationSettings: i < Math.floor(review.rating) ? '"FILL" 1' : '"FILL" 0'
-                }}
+                key={`full-${i}`}
+                style={{ fontVariationSettings: '"FILL" 1' }}
                 className="material-symbols-rounded text-yellow-300 text-[24px]"
               >
                 star
               </span>
             ))}
+            
+            {/* Partial star */}
+            {(review.rating % 1) > 0 && (
+              <div className="relative">
+                <span 
+                  className="material-symbols-rounded text-yellow-300 text-[24px]"
+                >
+                  star
+                </span>
+                
+                <div 
+                  className="absolute top-0 left-0 overflow-hidden"
+                  style={{ width: `${(review.rating % 1) * 100}%` }}
+                >
+                  <span 
+                    style={{ fontVariationSettings: '"FILL" 1' }}
+                    className="material-symbols-rounded text-yellow-300 text-[24px]"
+                  >
+                    star
+                  </span>
+                </div>
+              </div>
+            )}
+            
+            {/* Empty stars */}
+            {[...Array(5 - Math.ceil(review.rating))].map((_, i) => (
+              <span 
+                key={`empty-${i}`}
+                className="material-symbols-rounded text-yellow-300 text-[24px]"
+              >
+                star
+              </span>
+            ))}
+            
             <span className="ml-2 text-yellow-300 font-medium">
               {review.rating?.toFixed(1) || "5.0"}
             </span>
