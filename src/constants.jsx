@@ -271,17 +271,17 @@ export const reviews = [
   },
   {
     content: 'Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.',
-    name: 'Ethan Caldwell',
-    imgSrc: '/assets/images/people-2.jpg',
-    company: 'NexaWave',
+    name: 'Vishwas Vasisht',
+    imgSrc: 'https://media.licdn.com/dms/image/v2/C5603AQEZbGnE7yHmHA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1662022447154?e=1755129600&v=beta&t=u5p4F7hYFEcE_Tp0y7YxdT_OSm24_39trgAkW1uGf-A',
+    company: '',
     rating: 5.0
   },
   {
-    content: 'Outstanding developer! Built a robust site with perfect functionality. Efficient and detail-oriented.',
-    name: 'Liam Bennett',
-    imgSrc: '/assets/images/people-3.jpg',
-    company: 'CodeCraft',
-    rating: 4.7
+    content: 'We found him to be a punctual and reliable person. His learning powers are good and he picks up quickly. He has good leadership qualities. His feedback and evaluation proved that he learned strongly.',
+    name: 'Akshay D R',
+    imgSrc: 'https://img1.wsimg.com/isteam/ip/e36aceac-84ee-4425-9a38-1910d365ab01/blob-a84b608.png/:/rs=w:260,h:218,cg:true,m/cr=w:260,h:218/qt=q:95',
+    company: 'CEO, Enmaz Engineering',
+    rating: 4.6
   },
   {
     content: 'Creative and skilled! Produced a modern, user-friendly site that exceeded expectations. Great communication.',
@@ -289,13 +289,6 @@ export const reviews = [
     imgSrc: '/assets/images/people-4.jpg',
     company: 'BrightWeb',
     rating: 4.9
-  },
-  {
-    content: 'Professional work! Delivered on time, with a polished design and smooth user experience. Top-notch developer.',
-    name: 'Vishwas Vashisht',
-    imgSrc: 'https://media.licdn.com/dms/image/v2/C5603AQEZbGnE7yHmHA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1662022447154?e=1746662400&v=beta&t=-Krggw7eH7ptht2Pn-y7mAQJL8U59peVSiYaNa1tQzI',
-    company: 'Ex Mercedes',
-    rating: 4.6
   },
   {
     content: 'Excellent project execution! High-quality code, responsive design, and exceptional problem-solving skills.',
