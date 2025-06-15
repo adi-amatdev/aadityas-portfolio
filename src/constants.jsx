@@ -263,18 +263,18 @@ export const works = [
 // reviews jsx
 export const reviews = [
   {
+    content: 'Creative and skilled! Produced a modern, user-friendly site that exceeded expectations. Great communication.',
+    name: 'Noah Williams',
+    imgSrc: '/assets/images/people-4.jpg',
+    company: 'BrightWeb',
+    rating: 4.9
+  },
+  {
     content: 'Excellent project execution! High-quality code, responsive design, and exceptional problem-solving skills.',
     name: 'Jonathan',
     imgSrc: '/assets/images/people-6.jpg',
     company: 'Skyline Digital',
     rating: 4.8
-  },
-  {
-    content: 'Exceptional web development! Delivered a seamless, responsive site with clean code and great UX.',
-    name: 'Sophia Ramirez',
-    imgSrc: 'https://www.linkedin.com/in/vishwas-vasisht-6993661b7?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADJrplUBVSb6n97-WGSvVogiXoInibX3dUA&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BxwA82pCFRci6ncW0FScvZg%3D%3D',
-    company: 'PixelForge',
-    rating: 4.5
   },
   {
     content: 'We found him to be a punctual and reliable person. His learning powers are good and he picks up quickly. He has good leadership qualities. His feedback and evaluation proved that he learned strongly.',
@@ -284,18 +284,18 @@ export const reviews = [
     rating: 4.6
   },
   {
-    content: 'Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.',
+    content: 'A great teacher and colleague to work with. Makes complex tasks simple and easy to understand. His ability to break down problems and find solutions is impressive.',
     name: 'Vishwas Vasisht',
     imgSrc: 'https://media.licdn.com/dms/image/v2/C5603AQEZbGnE7yHmHA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1662022447154?e=1755129600&v=beta&t=u5p4F7hYFEcE_Tp0y7YxdT_OSm24_39trgAkW1uGf-A',
-    company: '',
+    company: 'SDE, Enmaz Engineering',
     rating: 5.0
   },
-  {
-    content: 'Creative and skilled! Produced a modern, user-friendly site that exceeded expectations. Great communication.',
-    name: 'Noah Williams',
-    imgSrc: '/assets/images/people-4.jpg',
-    company: 'BrightWeb',
-    rating: 4.9
+   {
+    content: 'During his entire tenure, we found him incredibly sincere, efficient, honest and hard-working. His association with us was beneficial. We wish him all the best in his future endeavors.',
+    name: 'Pooja Patnekar',
+    imgSrc: 'data:image/jpeg;base64,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',
+    company: 'Operations Director, ShreshtaIt technologies Pvt Ltd',
+    rating: 4.5
   }
 ];
 

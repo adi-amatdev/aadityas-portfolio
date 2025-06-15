@@ -68,7 +68,7 @@ const Review = () => {
                 </p>
                 <div className="reviews-container relative overflow-hidden">
                     <div 
-                        className="scrub-slide flex items-stretch gap-6 w-fit overflow-x-auto scrollbar-hide"
+                        className="scrub-slide flex items-stretch gap-6 w-fit overflow-hidden"
                     >
                         {
                             reviews.map((review, index) => (
