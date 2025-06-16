@@ -1,6 +1,6 @@
 // hero jsx
 
-export const heroMessage = "Available for work";
+export const heroMessage = "Actively working";
 export const mainMessage = "Full Stack developer building solutions that matter";
 
 
