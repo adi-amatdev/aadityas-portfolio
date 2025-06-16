@@ -263,17 +263,17 @@ export const works = [
 // reviews jsx
 export const reviews = [
   {
-    content: 'Creative and skilled! Produced a modern, user-friendly site that exceeded expectations. Great communication.',
-    name: 'Noah Williams',
+    content: 'lorem ipsum.',
+    name: 'John Doe Williams',
     imgSrc: '/assets/images/people-4.jpg',
-    company: 'BrightWeb',
+    company: 'placeholder',
     rating: 4.9
   },
   {
-    content: 'Excellent project execution! High-quality code, responsive design, and exceptional problem-solving skills.',
-    name: 'Jonathan',
+    content: 'lorem ipsum.',
+    name: 'Jonathan doe',
     imgSrc: '/assets/images/people-6.jpg',
-    company: 'Skyline Digital',
+    company: 'placeholder',
     rating: 4.8
   },
   {
