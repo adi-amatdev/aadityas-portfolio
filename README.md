@@ -1,3 +1,7 @@
+Credits
+========
+Inspired by [codewithsadee](https://github.com/codewithsadee)'s  tutorials
+
 # Improvements to be made
 
 1.Take reviews from actual people <br>
