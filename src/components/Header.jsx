@@ -10,8 +10,8 @@ const Header = ()=>{
                 <h1>
                     <a href="/" className="logo">
                         <img src="/assets/images/aadityas-logo.webp"
-                            height={40} 
-                            width={40}
+                            height={50} 
+                            width={50}
                             alt="Aaditya Acharya" />
                     </a>
                 </h1>

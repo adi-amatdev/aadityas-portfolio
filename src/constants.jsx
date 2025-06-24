@@ -300,5 +300,5 @@ export const reviews = [
 ];
 
 export const reviewDesc = "What my colleague's say";
-export const reviewTip = "Click on a review to read in full";
+export const reviewTip = "Click any review to browse through all testimonials";
 

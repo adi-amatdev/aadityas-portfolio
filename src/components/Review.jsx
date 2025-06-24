@@ -62,8 +62,8 @@ const Review = () => {
                 <h2 className="headline-2 mb-2 reveal-up">
                     {reviewDesc}
                 </h2>
-                <p className=" text-sm mb-8 reveal-up flex items-center text-red-500">
-                    <span className="material-symbols-rounded mr-1 text-[16px] ">touch_app</span>
+                <p className="text-sm mt-5 mb-4 reveal-up flex items-center text-red-500 animate-bounce font-bold">
+                    <span className=" material-symbols-rounded mr-1 text-[16px] ">touch_app</span>
                     {reviewTip}
                 </p>
                 <div className="reviews-container relative overflow-hidden">
