@@ -16,13 +16,9 @@ export const aboutItems = [
     number: 8,
   },
   {
-    label: "Months of internship experience",
-    number: 10,
-  },
-  {
-    label: "Months of full time working experience",
-    number: 5,
-  },
+    label: "Years of on hand work experience",
+    number: 2,
+  }
 ];
 
 export const aboutMessage = `
@@ -31,6 +27,14 @@ export const aboutMessage = `
     iTAS Innovations
   </a>, where I've been fortunate to work on projects that have helped me grow.<br /><br />
   I love working on end-to-end solutions that combine various cloud services, databases, frontend, and backend systems—mostly revolving around the MERN stack.
+ <br> <br>
+  Currently working on <a target=# href="https://d2m-windows-app-ui.vercel.app/" style="color: #ef4444; text-decoration: none;" onmouseover="this.style.color='#f87171'; this.style.textDecoration='underline';" onmouseout="this.style.color='#ef4444'; this.style.textDecoration='none';">
+    D2M-Windows
+  </a> (demo website)
+  , a broadcast based OTT APP Platform for windows in collaboration with
+  <a target=# href="https://www.tejasnetworks.com/press-and-news/tejas-networks-and-intel-team-up-to-bring-direct-to-mobile-d2m-capability-to-laptops-ushering-in-new-possibilities-for-universal-education/" style="color: #2563eb; text-decoration: underline;"onmouseover="this.style.color='#3b82f6'; this.style.textDecoration='underline';"onmouseout="this.style.color='#2563eb'; this.style.textDecoration='underline';">
+    Intel and Tejas Networks
+  </a>. 
 `;
 
 // skill jsx
@@ -293,7 +297,7 @@ export const works = [
   },
   {
     imgSrc:
-      "https://www.llamaindex.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F7m9jw85w%2Fproduction%2F0cb33464dc33c7b24ac0f41d983f78639cbdc98e-2874x1548.png%3Ffit%3Dmax%26auto%3Dformat&w=1920&q=75",
+      "/assets/images/finsight.jpeg",
     title: "Finsight",
     tags: [
       "UI",
