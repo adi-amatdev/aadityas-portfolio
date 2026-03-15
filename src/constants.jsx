@@ -1,16 +1,16 @@
 // hero jsx
 
-export const heroMessage = "Actively working";
+export const heroMessage = "Available for hire";
 export const mainMessage =
   "Full Stack developer building solutions that matter";
 
 // about jsx
 
 export const aboutItems = [
-  {
-    label: "Tasks done",
-    number: 23,
-  },
+  // {
+  //   label: "Tasks done",
+  //   number: 23,
+  // },
   {
     label: "Valuable Projects worked on",
     number: 8,
@@ -22,19 +22,15 @@ export const aboutItems = [
 ];
 
 export const aboutMessage = `
-  Welcome! I&apos;m Aaditya, I'm a passionate developer who loves diving into challenges and building solutions that matter. <br/><br/>
-  Currently, I'm working at <a target=# href="https://itasin.com/" style="color: #ef4444; text-decoration: none;" onmouseover="this.style.color='#f87171'; this.style.textDecoration='underline';" onmouseout="this.style.color='#ef4444'; this.style.textDecoration='none';">
-    iTAS Innovations
-  </a>, where I've been fortunate to work on projects that have helped me grow.<br /><br />
-  I love working on end-to-end solutions that combine various cloud services, databases, frontend, and backend systems—mostly revolving around the MERN stack.
- <br> <br>
-  Currently working on <a target=# href="https://d2m-windows-app-ui.vercel.app/" style="color: #ef4444; text-decoration: none;" onmouseover="this.style.color='#f87171'; this.style.textDecoration='underline';" onmouseout="this.style.color='#ef4444'; this.style.textDecoration='none';">
-    D2M-Windows
-  </a> (demo website)
-  , a broadcast based OTT APP Platform for windows in collaboration with
-  <a target=# href="https://www.tejasnetworks.com/press-and-news/tejas-networks-and-intel-team-up-to-bring-direct-to-mobile-d2m-capability-to-laptops-ushering-in-new-possibilities-for-universal-education/" style="color: #2563eb; text-decoration: underline;"onmouseover="this.style.color='#3b82f6'; this.style.textDecoration='underline';"onmouseout="this.style.color='#2563eb'; this.style.textDecoration='underline';">
-    Intel and Tejas Networks
-  </a>. 
+  Welcome! I'm Aaditya, a passionate developer who enjoys diving into challenging problems and building solutions that matter. <br/><br/>
+
+I love working across the full stack and tackling diverse technical challenges. <br/><br/>
+
+My go-to tools include frameworks like FastAPI, Express, and Next.js, along with AWS and its ecosystem of services. I’m comfortable navigating Linux systems, managing servers with Nginx, debugging APIs with Postman, and building with tools like Visual Studio Code. <br/><br/>
+
+What motivates me most is the journey of creating something valuable from ideation to deployment. I take pride in the effort and learning that go into building meaningful projects. <br/><br/>
+
+If you’re passionate about solving problems or exploring the endless possibilities in tech, let’s connect and see what we can build together! <br/><br/>
 `;
 
 // skill jsx

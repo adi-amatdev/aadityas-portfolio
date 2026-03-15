@@ -13,7 +13,7 @@ const Hero = () => {
                     <figure
                         className="img-box w-9 h-9 rounded-lg"
                     >
-                        <img src="/assets/images/avatar-1.webp"
+                        <img src="public/assets/images/DSC_1329.JPG"
                             width={40}
                             height={40}
                             alt="Aaditya Acharya potrait" 
@@ -23,12 +23,11 @@ const Hero = () => {
 
                     <div className="flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide">
                         <span 
-                            className="relative w-2 h-2 rounded-full bg-emerald-400"
+                            className="relative w-2 h-2 rounded-full bg-red-500"
                         >
                             <span
-                                className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"
+                                className="absolute inset-0 rounded-full bg-red-500 animate-ping" //<!-- bg-emerald-400-->
                             >
-
                             </span>
                         </span>
                         {heroMessage}
