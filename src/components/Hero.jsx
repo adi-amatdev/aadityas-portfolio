@@ -13,7 +13,7 @@ const Hero = () => {
                     <figure
                         className="img-box w-9 h-9 rounded-lg"
                     >
-                        <img src="./public/assets/images/pot.webp"
+                        <img src="/assets/images/DSC_1329.webp"
                             width={40}
                             height={40}
                             alt="Aaditya Acharya potrait" 
