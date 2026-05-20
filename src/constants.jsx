@@ -1,8 +1,7 @@
 // hero jsx
 
 export const heroMessage = "Available for hire";
-export const mainMessage =
-  "Full Stack developer building solutions that matter";
+export const mainMessage = "Full Stack AI developer ";
 
 // about jsx
 
@@ -18,20 +17,25 @@ export const aboutItems = [
   {
     label: "Years of on hand work experience",
     number: 2,
-  }
+  },
 ];
 
 export const aboutMessage = `
-  Welcome! I'm Aaditya, a passionate developer who enjoys diving into challenging problems and building solutions that matter. <br/><br/>
+ Hi there! I'm <a class="text-red-400" href="https://www.linkedin.com/in/aaditya-acharya" target="_blank" rel="noopener noreferrer">Aaditya</a> <br><br> I’m an energetic software engineer who enjoys diving into challenging problems and building systems that create real impact. <br><br>
 
-I love working across the full stack and tackling diverse technical challenges. <br/><br/>
 
-My go-to tools include frameworks like FastAPI, Express, and Next.js, along with AWS and its ecosystem of services. I’m comfortable navigating Linux systems, managing servers with Nginx, debugging APIs with Postman, and building with tools like Visual Studio Code. <br/><br/>
+  I love working across the full stack, exploring everything from backend architecture and cloud infrastructure to AI systems, automation, and developer tooling.
+ <br><br>
+  My experience spans web platforms, broadcast streaming systems, NLP tooling, and AI workflows. Recently, I’ve been working with LLMs, agentic AI workflows using LangGraph, temporal parsing systems, and observability research around OpenTelemetry.
+ <br><br>
+  My go-to stack includes FastAPI, Express, Next.js, React, Node.js, Python, and AWS services.
+  I’m comfortable working with Linux systems, Nginx servers, Docker environments, REST APIs, and low-level tooling, while also experimenting with modern AI ecosystems and open-source technologies.
+ <br><br>
+  What motivates me most is the process of turning ideas into working systems from experimentation and architecture to deployment and iteration. I enjoy learning deeply, building fast, and solving problems across different layers of technology.
+ <br><br>
+  If you're passionate about AI, scalable systems, developer infrastructure, or building ambitious products, let’s connect and explore what we can create together!
 
-What motivates me most is the journey of creating something valuable from ideation to deployment. I take pride in the effort and learning that go into building meaningful projects. <br/><br/>
-
-If you’re passionate about solving problems or exploring the endless possibilities in tech, let’s connect and see what we can build together! <br/><br/>
-`;
+  `;
 
 // skill jsx
 export const skillHeading = "Essential Tools I use";
@@ -40,6 +44,11 @@ export const skillDesc =
   "Discover the powerful tools and technologies I use to create meaningful projects.";
 
 export const skillItem = [
+  {
+    imgSrc: "https://avatars.githubusercontent.com/u/126733545?s=48&v=4",
+    label: "LangGraph",
+    desc: "Agentic AI Framework",
+  },
   {
     imgSrc: "https://skillicons.dev/icons?i=js",
     label: "JavaScript",
@@ -195,9 +204,9 @@ export const socialLinks = [
   },
 ];
 
-export const contactHeading = "Contact me for collaboration";
+export const contactHeading = `The road opens before us.<br> Shall we converse, traveler?`;
 export const contactDesc =
-  "Reach out today to discuss ideas and start collaborating on something amazing!";
+  "In a world full of AI slop and automated messages, let's grab a virtual coffee and connect!";
 export const formActuator = "https://getform.io/f/amdkmorb";
 
 // footer jsx
@@ -292,8 +301,7 @@ export const works = [
     projectLink: "https://github.com/adi-amatdev/TokenSystem/tree/jwt-auth",
   },
   {
-    imgSrc:
-      "/assets/images/finsight.jpeg",
+    imgSrc: "/assets/images/finsight.jpeg",
     title: "Finsight",
     tags: [
       "UI",
