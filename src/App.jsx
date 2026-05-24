@@ -4,7 +4,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Skill from './components/Skill'
 import Work from './components/Work'
-import Review from './components/Review'
+import WorkTimeline from './components/WorkTimeline'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import {ReactLenis}  from 'lenis/react'
@@ -44,7 +44,7 @@ function App() {
             <About/>
             <Skill/>
             <Work/>
-            <Review/>
+            <WorkTimeline/>
             <Contact/>
           </main>
         <Footer/>

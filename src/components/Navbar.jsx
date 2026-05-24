@@ -21,7 +21,7 @@ export const NavBar = ({navOpen}) => {
     
     useEffect(() => {
         initActiveBox();
-        const sections = ['home', 'about', 'work', 'reviews', 'contact'];
+        const sections = ['home', 'about', 'work', 'timeline', 'contact'];
         
         ScrollTrigger.getAll().forEach(trigger => {
             if (trigger.vars.id && trigger.vars.id.startsWith('section-')) {
@@ -37,8 +37,8 @@ export const NavBar = ({navOpen}) => {
             ScrollTrigger.create({
                 id: `section-${section}`,
                 trigger: `#${section}`,
-                start: section === 'reviews' ? 'top 60%' : 'top 50%', 
-                end: `bottom ${section === 'reviews' ? '40%' : '50%'}`,
+                start: section === 'timeline' ? 'top 60%' : 'top 50%', 
+                end: `bottom ${section === 'timeline' ? '40%' : '50%'}`,
                 onEnter: () => updateActiveSection(section),
                 onEnterBack: () => updateActiveSection(section),
                 markers: false 
@@ -110,10 +110,10 @@ export const NavBar = ({navOpen}) => {
           id: 'work'
         },
         {
-          label: 'Reviews',
-          link: '#reviews',
+          label: 'Timeline',
+          link: '#timeline',
           className: 'nav-link',
-          id: 'reviews'
+          id: 'timeline'
         },
         {
           label: 'Contact',

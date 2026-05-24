@@ -1,0 +1,11 @@
+{
+  "framework": "vite",
+  "buildCommand": "npm run vercel-build",
+  "outputDirectory": "dist",
+  "crons": [
+    {
+      "path": "/api/refresh-timeline",
+      "schedule": "0 0 1 * *"
+    }
+  ]
+}

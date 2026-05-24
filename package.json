@@ -6,8 +6,10 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
+    "vercel-build": "npm run sync:timeline && npm run build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "sync:timeline": "node scripts/sync-linkedin-experience.mjs"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

@@ -224,8 +224,8 @@ export const sitemap = [
     href: "#work",
   },
   {
-    label: "Reviews",
-    href: "#reviews",
+    label: "Timeline",
+    href: "#timeline",
   },
   {
     label: "Contact me",

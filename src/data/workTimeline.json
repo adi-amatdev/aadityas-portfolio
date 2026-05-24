@@ -1,0 +1,79 @@
+{
+  "profileUrl": "https://www.linkedin.com/in/aaditya-acharya",
+  "sourceUrl": "https://r.jina.ai/http://www.linkedin.com/in/aaditya-acharya",
+  "fetchedAt": "2026-05-24T08:40:00.000Z",
+  "entryCount": 4,
+  "entries": [
+    {
+      "id": "full-stack-developer-itas-innovations-pvt-ltd-1",
+      "title": "Full Stack Developer",
+      "company": "iTAS Innovations Pvt Ltd",
+      "companyUrl": "https://www.linkedin.com/company/itas-innovations-private-limited",
+      "current": true,
+      "dateRange": "Sep 2024 - Present (1 year and 6 months)",
+      "duration": "1 year and 6 months",
+      "location": "India",
+      "skills": [
+        "React",
+        "TailwindCSS",
+        "ATSC3.0",
+        "Linux",
+        "C"
+      ],
+      "department": "Engineering and Technical • Level: Specialist",
+      "summary": "iTAS Innovations Pvt Ltd is a IT Services and IT Consulting company. iTAS Innovations is a company that provides iot solutions and services, including wireless communication solutions, Bluetooth le module offerings, and secure authentication services."
+    },
+    {
+      "id": "intern-enmaz-engineering-2",
+      "title": "Intern",
+      "company": "ENMAZ Engineering",
+      "companyUrl": "https://www.linkedin.com/company/enmaz-engineering-services-pvt-ltd",
+      "current": false,
+      "dateRange": "Jun 2024 - Aug 2024 (2 months)",
+      "duration": "2 months",
+      "location": "Karnataka, India",
+      "skills": [
+        "MERN",
+        "Python",
+        "AWS"
+      ],
+      "department": "Other",
+      "summary": "ENMAZ Engineering is a Embedded Software Products company. enmaz is a company that provides hardware tools and dashboards for industrial automation."
+    },
+    {
+      "id": "intern-shreshta-3",
+      "title": "Intern",
+      "company": "Shreshta",
+      "companyUrl": "https://www.linkedin.com/company/shreshta",
+      "current": false,
+      "dateRange": "Sep 2023 - Mar 2024 (6 months)",
+      "duration": "6 months",
+      "location": "India",
+      "skills": [
+        "Network Security",
+        "Threat Intelligence",
+        "Software engineering"
+      ],
+      "department": "Other",
+      "summary": "Shreshta is a Computer and Network Security company. Shreshta is a cyber security company that offers DNS security products, Protective DNS and Passive DNS, and cyber threat intelligence feeds."
+    },
+    {
+      "id": "director-arcteus-media-4",
+      "title": "Director",
+      "company": "Arcteus Media",
+      "companyUrl": "https://www.linkedin.com/company/arcteus-media",
+      "current": false,
+      "dateRange": "Oct 2021 - Nov 2022 (1 year and 1 month)",
+      "duration": "1 year and 1 month",
+      "location": "Bangalore Urban, Karnataka, India",
+      "skills": [
+        "Management",
+        "Photography",
+        "Videography"
+      ],
+      "department": "General Management • Level: Director",
+      "summary": "Arcteus Media is a Advertising Services company. Arcteus is an avant-garde digital marketing firm that revolutionizes the web marketing industry with a modernist approach."
+    }
+  ],
+  "previousEntryCount": 0
+}
