@@ -406,3 +406,113 @@ export const reviews = [
 
 export const reviewDesc = "What my colleague's say";
 export const reviewTip = "Click any review to browse through all testimonials";
+
+//Timeline.jsx
+//
+export const experiences = [
+  {
+    role: "AI Engg Intern",
+    company: "NxtGen Cloud Technologies",
+    duration: "Mar 2026 - Present",
+    location: "Bengaluru, Karnataka, India",
+    logo: "https://media.licdn.com/dms/image/v2/D560BAQE64JdG0dvx7A/company-logo_100_100/B56Z4XXd7VK0AQ-/0/1778508489217/nxtgen_cloud_technologies_pvt_ltd_logo?e=1781136000&v=beta&t=ONuDfTekwCWr825f7o9gJKA7tOh7zDMkWvniH5dhzb0",
+
+    summary:
+      "Worked on LLM evaluation workflows, NLP tooling, observability research, and agentic AI systems.",
+
+    achievements: [
+      "Built ETL pipelines for finance-focused LLM benchmarking",
+      "Developed temporal reasoning evaluation systems",
+      "Researched OpenTelemetry tracing for AI workflows",
+      "Built LangGraph ReAct-style agents",
+      "Published NLP libraries and tooling",
+    ],
+
+    tech: ["Python", "LangGraph", "OpenTelemetry", "LLMs", "Duckling"],
+  },
+
+  {
+    role: "AI Engg Intern",
+    company: "NxtGen Cloud Technologies",
+    duration: "Mar 2026 - Present",
+    location: "Bengaluru, Karnataka, India",
+    logo: "https://media.licdn.com/dms/image/v2/D560BAQE64JdG0dvx7A/company-logo_100_100/B56Z4XXd7VK0AQ-/0/1778508489217/nxtgen_cloud_technologies_pvt_ltd_logo?e=1781136000&v=beta&t=ONuDfTekwCWr825f7o9gJKA7tOh7zDMkWvniH5dhzb0",
+
+    summary:
+      "Worked on LLM evaluation workflows, NLP tooling, observability research, and agentic AI systems.",
+
+    achievements: [
+      "Built ETL pipelines for finance-focused LLM benchmarking",
+      "Developed temporal reasoning evaluation systems",
+      "Researched OpenTelemetry tracing for AI workflows",
+      "Built LangGraph ReAct-style agents",
+      "Published NLP libraries and tooling",
+    ],
+
+    tech: ["Python", "LangGraph", "OpenTelemetry", "LLMs", "Duckling"],
+  },
+
+  {
+    role: "Full Stack Developer",
+    company: "iTAS Innovations",
+    duration: "Sep 2024 - Feb 2026",
+    location: "India",
+    logo: "https://media.licdn.com/dms/image/v2/C510BAQHWo3ZhH0HCiA/company-logo_100_100/company-logo_100_100/0/1631359632027?e=1781136000&v=beta&t=8Irc__J8k2ohRlXGGQW5_nU2ZRMG-k5WHXQFLO3G2mQ",
+
+    summary:
+      "Worked across frontend systems, broadcast infrastructure, streaming, and low-level tooling.",
+
+    achievements: [
+      "Built dashboards and EPG systems",
+      "Implemented RTMP media pipelines",
+      "Worked with SCTE-35 and ATSC 3.0",
+      "Built D2M Windows applications",
+      "Integrated ASR systems",
+      "Built ncurses tooling in C",
+    ],
+
+    tech: ["Next.js", "React", "Node.js", "FFmpeg", "MongoDB", "Kotlin", "C"],
+  },
+
+  {
+    role: "Intern",
+    company: "ENMAZ Engineering",
+    duration: "Jun 2024 - Aug 2024",
+    location: "Karnataka, India",
+    logo: "https://media.licdn.com/dms/image/v2/C510BAQErGrtkJEP8EQ/company-logo_100_100/company-logo_100_100/0/1630602147743?e=1781136000&v=beta&t=vKibW7Bshf21WlVSJck9vg1y2hl7oABZ_KTh-BXqy9s",
+
+    summary:
+      "Worked on APIs, AWS experimentation, IoT analysis systems, and backend tooling.",
+
+    achievements: [
+      "Built REST APIs using Flask and Node.js",
+      "Implemented JWT auth systems",
+      "Experimented with AWS infrastructure",
+      "Performed database benchmarking",
+      "Built IoT vibration analysis tooling",
+    ],
+
+    tech: ["Python", "Flask", "Node.js", "AWS", "MongoDB"],
+  },
+
+  {
+    role: "Intern",
+    company: "Shreshta",
+    duration: "Sep 2023 - Mar 2024",
+    location: "Remote",
+    logo: "https://media.licdn.com/dms/image/v2/C510BAQEJfcxlVxD-ug/company-logo_100_100/company-logo_100_100/0/1631440612495/shreshtait_logo?e=1781136000&v=beta&t=FuI539fb51LVTVe3_v7giO1Ka3nfxeC2yGIUZpVszs8",
+
+    summary:
+      "Worked on encryption, threat intelligence, APK analysis, and backend systems.",
+
+    achievements: [
+      "Implemented GnuPG encryption workflows",
+      "Built JARM TLS fingerprinting tools",
+      "Worked on Safe Browsing systems",
+      "Built APK analysis pipelines",
+      "Handled split APK reconstruction",
+    ],
+
+    tech: ["Go", "Linux", "PostgreSQL", "Security", "GnuPG"],
+  },
+];
