@@ -261,6 +261,34 @@ export const workTitle = "Projects I have worked on";
 
 export const works = [
   {
+    imgSrc: "/assets/images/shawking.png",
+    title: "Shawking",
+    tags: [
+      "Java",
+      "Spring Boot",
+      "Docker",
+      "maven",
+      "PyPi (client wrapper & src code in ReadMe)",
+      "Temporal Date parser",
+      "Fork",
+    ],
+    projectLink: "https://github.com/adi-amatdev/shawking",
+  },
+  {
+    imgSrc: "/assets/images/duckling.webp",
+    title: "Qwackling",
+    tags: [
+      "Python",
+      "Duckling(Facebook)",
+      "pytest",
+      "client wrapper",
+      "PyPi package",
+      "Temporal Date parser",
+      "uv",
+    ],
+    projectLink: "https://github.com/adi-amatdev/qwackling",
+  },
+  {
     imgSrc: "/assets/images/medium.jpg",
     title: "Medium Adaptation",
     tags: [
@@ -274,12 +302,12 @@ export const works = [
     ],
     projectLink: "https://github.com/adi-amatdev/medium",
   },
-  {
-    imgSrc: "/assets/images/msp.png",
-    title: "Managed Service Provider",
-    tags: ["UI", "NextJs", "Tailwindcss", "Vercel", "Lucid-react", "Frontend"],
-    projectLink: "https://github.com/stars/adi-amatdev/lists/msp-dashboards",
-  },
+  // {
+  //   imgSrc: "/assets/images/msp.png",
+  //   title: "Managed Service Provider",
+  //   tags: ["UI", "NextJs", "Tailwindcss", "Vercel", "Lucid-react", "Frontend"],
+  //   projectLink: "https://github.com/stars/adi-amatdev/lists/msp-dashboards",
+  // },
   {
     imgSrc: "/assets/images/patym.png",
     title: "Paytm Clone",
@@ -314,20 +342,21 @@ export const works = [
     projectLink:
       "https://github.com/vishwasg217/fin-sight/tree/signup-login-branch",
   },
-  {
-    imgSrc: "/assets/images/port.webp",
-    title: "Portfolio",
-    tags: [
-      "UI",
-      "Portfolio Website",
-      "Tailwindcss",
-      "Javascript",
-      "vite",
-      "gsap",
-    ],
-    projectLink:
-      "https://github.com/adi-amatdev/aadityas-portfolio/tree/main?tab=readme-ov-file",
-  },
+  // },
+  // {
+  //   imgSrc: "/assets/images/port.webp",
+  //   title: "Portfolio",
+  //   tags: [
+  //     "UI",
+  //     "Portfolio Website",
+  //     "Tailwindcss",
+  //     "Javascript",
+  //     "vite",
+  //     "gsap",
+  //   ],
+  //   projectLink:
+  //     "https://github.com/adi-amatdev/aadityas-portfolio/tree/main?tab=readme-ov-file",
+  // },
 ];
 
 // reviews jsx
