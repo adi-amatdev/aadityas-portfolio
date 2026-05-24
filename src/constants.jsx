@@ -432,27 +432,6 @@ export const experiences = [
   },
 
   {
-    role: "AI Engg Intern",
-    company: "NxtGen Cloud Technologies",
-    duration: "Mar 2026 - Present",
-    location: "Bengaluru, Karnataka, India",
-    logo: "https://media.licdn.com/dms/image/v2/D560BAQE64JdG0dvx7A/company-logo_100_100/B56Z4XXd7VK0AQ-/0/1778508489217/nxtgen_cloud_technologies_pvt_ltd_logo?e=1781136000&v=beta&t=ONuDfTekwCWr825f7o9gJKA7tOh7zDMkWvniH5dhzb0",
-
-    summary:
-      "Worked on LLM evaluation workflows, NLP tooling, observability research, and agentic AI systems.",
-
-    achievements: [
-      "Built ETL pipelines for finance-focused LLM benchmarking",
-      "Developed temporal reasoning evaluation systems",
-      "Researched OpenTelemetry tracing for AI workflows",
-      "Built LangGraph ReAct-style agents",
-      "Published NLP libraries and tooling",
-    ],
-
-    tech: ["Python", "LangGraph", "OpenTelemetry", "LLMs", "Duckling"],
-  },
-
-  {
     role: "Full Stack Developer",
     company: "iTAS Innovations",
     duration: "Sep 2024 - Feb 2026",

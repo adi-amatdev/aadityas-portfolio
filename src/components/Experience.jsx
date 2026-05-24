@@ -1,12 +1,57 @@
 import { useRef, useState } from "react";
+import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
 import { experiences } from "../constants";
 import ExperienceModal from "./ExperienceModal";
 
+const ScrollLinkedTimelineItem = ({ children, className }) => {
+  const itemRef = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: itemRef,
+    offset: ["start 92%", "start 55%"],
+  });
+
+  const progress = useSpring(scrollYProgress, {
+    stiffness: 120,
+    damping: 24,
+    mass: 0.25,
+  });
+
+  const opacity = useTransform(progress, [0, 1], [0.35, 1]);
+  const y = useTransform(progress, [0, 1], [54, 0]);
+  const scale = useTransform(progress, [0, 1], [0.96, 1]);
+
+  return (
+    <motion.div
+      ref={itemRef}
+      style={{ opacity, y, scale }}
+      className={className}
+    >
+      {children}
+    </motion.div>
+  );
+};
+
 const Experience = () => {
   const [selectedExperience, setSelectedExperience] = useState(null);
 
+  const sectionRef = useRef(null);
   const scrollRef = useRef(null);
+
+  const { scrollYProgress } = useScroll({
+    target: sectionRef,
+    offset: ["start 88%", "start 34%"],
+  });
+
+  const progress = useSpring(scrollYProgress, {
+    stiffness: 120,
+    damping: 24,
+    mass: 0.25,
+  });
+
+  const headerOpacity = useTransform(progress, [0, 1], [0.3, 1]);
+  const headerY = useTransform(progress, [0, 1], [46, 0]);
+  const lineOpacity = useTransform(progress, [0.15, 1], [0.25, 1]);
 
   // newest on right
   const orderedExperiences = [...experiences].reverse();
@@ -21,21 +66,36 @@ const Experience = () => {
   };
 
   return (
-    <section id="experience" className="experience-section section">
+    <section
+      ref={sectionRef}
+      id="experience"
+      className="experience-section section"
+    >
       <div className="container-2">
         {/* HEADER */}
         <div className="flex items-end justify-between mb-12">
           <div>
-            <h2 className="headline-2 mb-3">Experience Timeline</h2>
+            <motion.h2
+              style={{ opacity: headerOpacity, y: headerY }}
+              className="headline-2 mb-3"
+            >
+              Experience Timeline
+            </motion.h2>
 
-            <p className="text-zinc-400 max-w-2xl">
-              Building across AI systems, streaming infrastructure, low-level
-              tooling, frontend architecture and backend systems.
-            </p>
+            <motion.p
+              style={{ opacity: headerOpacity, y: headerY }}
+              className="text-zinc-400 max-w-2xl"
+            >
+              Building across AI systems, tooling, frontend architecture and
+              backend systems.
+            </motion.p>
           </div>
 
           {/* DESKTOP ARROWS */}
-          <div className="hidden md:flex gap-3">
+          <motion.div
+            style={{ opacity: headerOpacity, y: headerY }}
+            className="hidden md:flex gap-3"
+          >
             <button
               onClick={() => scroll("left")}
               className="
@@ -71,13 +131,14 @@ const Experience = () => {
             >
               →
             </button>
-          </div>
+          </motion.div>
         </div>
 
         {/* TIMELINE */}
         <div className="relative">
           {/* LINE */}
-          <div
+          <motion.div
+            style={{ opacity: lineOpacity }}
             className="
               absolute
 
@@ -128,7 +189,7 @@ const Experience = () => {
               const isTop = index % 2 === 0;
 
               return (
-                <div
+                <ScrollLinkedTimelineItem
                   key={index}
                   className="
                     w-full
@@ -420,12 +481,11 @@ const Experience = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </ScrollLinkedTimelineItem>
               );
             })}
           </div>
         </div>
-
       </div>
 
       {/* MODAL */}
