@@ -439,7 +439,7 @@ export const experiences = [
   },
 
   {
-    role: "Intern",
+    role: "Backend Intern",
     company: "ENMAZ Engineering",
     duration: "Jun 2024 - Aug 2024",
     location: "Karnataka, India",
@@ -456,11 +456,11 @@ export const experiences = [
       "Built Dashboards and backend of resource usage accross projects (aws services, mongo-db)",
     ],
 
-    tech: ["Python", "Flask", "Node.js", "AWS", "MongoDB"],
+    tech: ["TypeScript","Python", "Flask", "Node.js", "AWS", "MongoDB"],
   },
 
   {
-    role: "Intern",
+    role: "Threat Intelligence Intern",
     company: "Shreshta",
     duration: "Sep 2023 - Mar 2024",
     location: "Remote",
