@@ -50,24 +50,19 @@ export const skillItem = [
     desc: "Agentic AI Framework",
   },
   {
-    imgSrc: "https://skillicons.dev/icons?i=js",
-    label: "JavaScript",
-    desc: "Interaction",
+    imgSrc: "https://skillicons.dev/icons?i=nextjs",
+    label: "NextJs",
+    desc: "Framework",
   },
   {
-    imgSrc: "https://skillicons.dev/icons?i=nodejs",
-    label: "NodeJS",
-    desc: "programming language",
+    imgSrc: "https://skillicons.dev/icons?i=ts",
+    label: "TypeScript",
+    desc: "Typed JS",
   },
   {
     imgSrc: "https://skillicons.dev/icons?i=express",
     label: "ExpressJS",
     desc: "Node Framework",
-  },
-  {
-    imgSrc: "https://skillicons.dev/icons?i=mongodb",
-    label: "MongoDB",
-    desc: "Database",
   },
   {
     imgSrc: "https://skillicons.dev/icons?i=react",
@@ -105,11 +100,6 @@ export const skillItem = [
     desc: "Version Control",
   },
   {
-    imgSrc: "https://skillicons.dev/icons?i=materialui",
-    label: "Material UI",
-    desc: "Library",
-  },
-  {
     imgSrc: "https://skillicons.dev/icons?i=nginx",
     label: "Nginx",
     desc: "Web Server",
@@ -133,11 +123,6 @@ export const skillItem = [
     imgSrc: "https://skillicons.dev/icons?i=vercel",
     label: "Vercel",
     desc: "Deployment Platform",
-  },
-  {
-    imgSrc: "https://www.svgrepo.com/show/353564/cloudflare.svg",
-    label: "Cloudflare",
-    desc: "Cloud Services",
   },
   {
     imgSrc: "https://hono.dev/images/logo.svg",
@@ -445,9 +430,9 @@ export const experiences = [
       "Built dashboards and EPG systems",
       "Implemented RTMP media pipelines",
       "Worked with SCTE-35 and ATSC 3.0",
-      "Built D2M Windows applications",
-      "Integrated ASR systems",
-      "Built ncurses tooling in C",
+      "Built D2M Windows applications and architected entire frontend with UI/UX",
+      "Pioneered js to kt comm bridges and manual event listeners",
+      "Built ncurses tooling in C for dongle sdk's",
     ],
 
     tech: ["Next.js", "React", "Node.js", "FFmpeg", "MongoDB", "Kotlin", "C"],
@@ -464,11 +449,11 @@ export const experiences = [
       "Worked on APIs, AWS experimentation, IoT analysis systems, and backend tooling.",
 
     achievements: [
-      "Built REST APIs using Flask and Node.js",
+      "Built REST APIs using Flask and Node.js for AAMS production codebase",
       "Implemented JWT auth systems",
-      "Experimented with AWS infrastructure",
+      "Took ownership and built POC with AWS infrastructure",
       "Performed database benchmarking",
-      "Built IoT vibration analysis tooling",
+      "Built Dashboards and backend of resource usage accross projects (aws services, mongo-db)",
     ],
 
     tech: ["Python", "Flask", "Node.js", "AWS", "MongoDB"],
