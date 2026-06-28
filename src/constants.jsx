@@ -10,10 +10,10 @@ export const aboutItems = [
   //   label: "Tasks done",
   //   number: 23,
   // },
-  {
-    label: "Valuable Projects worked on",
-    number: 8,
-  },
+  // {
+  //   label: "Valuable Projects worked on",
+  //   number: 8,
+  // },
   {
     label: "Years of on hand work experience",
     number: 2,
@@ -410,7 +410,7 @@ export const experiences = [
     company: "NxtGen Cloud Technologies",
     duration: "Mar 2026 - Present",
     location: "Bengaluru, Karnataka, India",
-    logo: "https://media.licdn.com/dms/image/v2/D560BAQE64JdG0dvx7A/company-logo_100_100/B56Z4XXd7VK0AQ-/0/1778508489217/nxtgen_cloud_technologies_pvt_ltd_logo?e=1781136000&v=beta&t=ONuDfTekwCWr825f7o9gJKA7tOh7zDMkWvniH5dhzb0",
+    logo: "assets/images/nxtgen-logo.jpg",
 
     summary:
       "Worked on LLM evaluation workflows, NLP tooling, observability research, and agentic AI systems.",
@@ -431,7 +431,7 @@ export const experiences = [
     company: "iTAS Innovations",
     duration: "Sep 2024 - Feb 2026",
     location: "India",
-    logo: "https://media.licdn.com/dms/image/v2/C510BAQHWo3ZhH0HCiA/company-logo_100_100/company-logo_100_100/0/1631359632027?e=1781136000&v=beta&t=8Irc__J8k2ohRlXGGQW5_nU2ZRMG-k5WHXQFLO3G2mQ",
+    logo: "assets/images/itas-logo.jpg",
 
     summary:
       "Worked across frontend systems, broadcast infrastructure, streaming, and low-level tooling.",
@@ -453,7 +453,7 @@ export const experiences = [
     company: "ENMAZ Engineering",
     duration: "Jun 2024 - Aug 2024",
     location: "Karnataka, India",
-    logo: "https://media.licdn.com/dms/image/v2/C510BAQErGrtkJEP8EQ/company-logo_100_100/company-logo_100_100/0/1630602147743?e=1781136000&v=beta&t=vKibW7Bshf21WlVSJck9vg1y2hl7oABZ_KTh-BXqy9s",
+    logo: "assets/images/enmaz-logo.png",
 
     summary:
       "Worked on APIs, AWS experimentation, IoT analysis systems, and backend tooling.",
@@ -474,7 +474,7 @@ export const experiences = [
     company: "Shreshta",
     duration: "Sep 2023 - Mar 2024",
     location: "Remote",
-    logo: "https://media.licdn.com/dms/image/v2/C510BAQEJfcxlVxD-ug/company-logo_100_100/company-logo_100_100/0/1631440612495/shreshtait_logo?e=1781136000&v=beta&t=FuI539fb51LVTVe3_v7giO1Ka3nfxeC2yGIUZpVszs8",
+    logo: "assets/images/shreshtait_logo.jpg",
 
     summary:
       "Worked on encryption, threat intelligence, APK analysis, and backend systems.",
