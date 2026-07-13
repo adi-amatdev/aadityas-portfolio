@@ -256,18 +256,18 @@ export const workTitle = "Projects I have worked on";
 
 export const works = [
   {
-    imgSrc: "/assets/images/shawking.png",
-    title: "Shawking",
+    imgSrc: "/assets/images/findable.webp",
+    title: "Findable",
     tags: [
-      "Java",
-      "Spring Boot",
-      "Docker",
-      "maven",
-      "PyPi (client wrapper & src code in ReadMe)",
-      "Temporal Date parser",
-      "Fork",
+      "Agentic AI",
+      "Fast-api",
+      "Firecrawl",
+      "Answer Engine Optimization",
+      "Gemma models",
+      "AMD GPU | AMD devcloud",
+      "Fireworks API",
     ],
-    projectLink: "https://github.com/adi-amatdev/shawking",
+    projectLink: "https://github.com/adi-amatdev/Findable",
   },
   {
     imgSrc: "/assets/images/duckling.webp",
